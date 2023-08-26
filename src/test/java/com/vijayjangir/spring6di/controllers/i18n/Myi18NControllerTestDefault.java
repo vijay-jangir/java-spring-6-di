@@ -5,9 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
-@ActiveProfiles( )
 @SpringBootTest
-class Myi18NControllerTestHI {
+class Myi18NControllerTestDefault {
 
     @Autowired
     private Myi18NController myi18NController;
